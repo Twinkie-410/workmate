@@ -1,7 +1,8 @@
-from app.internal.serializers.user_serializer import UserSerializer
 from django.contrib.auth import get_user_model
 from rest_framework.generics import ListAPIView, RetrieveUpdateDestroyAPIView
 from rest_framework.permissions import IsAuthenticated
+
+from app.internal.serializers.user_serializer import UserSerializer
 
 
 class UserDetailAPIView(RetrieveUpdateDestroyAPIView):

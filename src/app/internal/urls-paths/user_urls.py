@@ -1,5 +1,6 @@
-from app.internal.views.user_view import UserDetailAPIView, UserListAPIView
 from django.urls import path
+
+from app.internal.views.user_view import UserDetailAPIView, UserListAPIView
 
 urlpatterns = [
     path("list/", UserListAPIView.as_view(), name="users"),

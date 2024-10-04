@@ -1,0 +1,681 @@
+[
+{
+    "model": "app.catbreed",
+    "pk": 1,
+    "fields": {
+        "name": "Abyssinian"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 2,
+    "fields": {
+        "name": "Aegean"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 3,
+    "fields": {
+        "name": "American Curl"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 4,
+    "fields": {
+        "name": "American Bobtail"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 5,
+    "fields": {
+        "name": "American Shorthair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 6,
+    "fields": {
+        "name": "American Wirehair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 7,
+    "fields": {
+        "name": "Arabian Mau"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 8,
+    "fields": {
+        "name": "Australian Mist"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 9,
+    "fields": {
+        "name": "Asian"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 10,
+    "fields": {
+        "name": "Asian Semi-longhair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 11,
+    "fields": {
+        "name": "Balinese"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 12,
+    "fields": {
+        "name": "Bambino"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 13,
+    "fields": {
+        "name": "Bengal"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 14,
+    "fields": {
+        "name": "Birman"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 15,
+    "fields": {
+        "name": "Bombay"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 16,
+    "fields": {
+        "name": "Brazilian Shorthair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 17,
+    "fields": {
+        "name": "British Semi-longhair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 18,
+    "fields": {
+        "name": "British Shorthair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 19,
+    "fields": {
+        "name": "British Longhair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 20,
+    "fields": {
+        "name": "Burmese"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 21,
+    "fields": {
+        "name": "Burmilla"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 22,
+    "fields": {
+        "name": "California Spangled"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 23,
+    "fields": {
+        "name": "Chantilly-Tiffany"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 24,
+    "fields": {
+        "name": "Chartreux"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 25,
+    "fields": {
+        "name": "Chausie"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 26,
+    "fields": {
+        "name": "Cheetoh"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 27,
+    "fields": {
+        "name": "Colorpoint Shorthair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 28,
+    "fields": {
+        "name": "Cornish Rex"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 29,
+    "fields": {
+        "name": "Cymric"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 30,
+    "fields": {
+        "name": "Cyprus"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 31,
+    "fields": {
+        "name": "Devon Rex"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 32,
+    "fields": {
+        "name": "Donskoy"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 33,
+    "fields": {
+        "name": "Dragon Li"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 34,
+    "fields": {
+        "name": "Dwarf cat"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 35,
+    "fields": {
+        "name": "Egyptian Mau"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 36,
+    "fields": {
+        "name": "European Shorthair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 37,
+    "fields": {
+        "name": "Exotic Shorthair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 38,
+    "fields": {
+        "name": "Foldex"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 39,
+    "fields": {
+        "name": "German Rex"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 40,
+    "fields": {
+        "name": "Havana Brown"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 41,
+    "fields": {
+        "name": "Highlander"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 42,
+    "fields": {
+        "name": "Himalayan"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 43,
+    "fields": {
+        "name": "Japanese Bobtail"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 44,
+    "fields": {
+        "name": "Javanese"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 45,
+    "fields": {
+        "name": "Karelian Bobtail"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 46,
+    "fields": {
+        "name": "Khao Manee"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 47,
+    "fields": {
+        "name": "Korat"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 48,
+    "fields": {
+        "name": "Korean Bobtail"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 49,
+    "fields": {
+        "name": "Korn Ja"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 50,
+    "fields": {
+        "name": "Kurilian Bobtail"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 51,
+    "fields": {
+        "name": "LaPerm"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 52,
+    "fields": {
+        "name": "Lykoi"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 53,
+    "fields": {
+        "name": "Maine Coon"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 54,
+    "fields": {
+        "name": "Manx"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 55,
+    "fields": {
+        "name": "Mekong Bobtail"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 56,
+    "fields": {
+        "name": "Minskin"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 57,
+    "fields": {
+        "name": "Munchkin"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 58,
+    "fields": {
+        "name": "Nebelung"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 59,
+    "fields": {
+        "name": "Napoleon"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 60,
+    "fields": {
+        "name": "Norwegian Forest cat"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 61,
+    "fields": {
+        "name": "Ocicat"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 62,
+    "fields": {
+        "name": "Ojos Azules"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 63,
+    "fields": {
+        "name": "Oregon Rex"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 64,
+    "fields": {
+        "name": "Oriental Bicolor"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 65,
+    "fields": {
+        "name": "Oriental Shorthair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 66,
+    "fields": {
+        "name": "Oriental Longhair"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 67,
+    "fields": {
+        "name": "PerFold"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 68,
+    "fields": {
+        "name": "Persian (Modern Persian Cat)"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 69,
+    "fields": {
+        "name": "Persian (Traditional Persian Cat)"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 70,
+    "fields": {
+        "name": "Peterbald"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 71,
+    "fields": {
+        "name": "Pixie-bob"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 72,
+    "fields": {
+        "name": "Raas"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 73,
+    "fields": {
+        "name": "Ragamuffin"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 74,
+    "fields": {
+        "name": "Ragdoll"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 75,
+    "fields": {
+        "name": "Russian Blue"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 76,
+    "fields": {
+        "name": "Russian White, Black and Tabby"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 77,
+    "fields": {
+        "name": "Sam Sawet"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 78,
+    "fields": {
+        "name": "Savannah"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 79,
+    "fields": {
+        "name": "Scottish Fold"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 80,
+    "fields": {
+        "name": "Selkirk Rex"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 81,
+    "fields": {
+        "name": "Serengeti"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 82,
+    "fields": {
+        "name": "Serrade petit"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 83,
+    "fields": {
+        "name": "Siamese"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 84,
+    "fields": {
+        "name": "Siberian"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 85,
+    "fields": {
+        "name": "Singapura"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 86,
+    "fields": {
+        "name": "Snowshoe"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 87,
+    "fields": {
+        "name": "Sokoke"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 88,
+    "fields": {
+        "name": "Somali"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 89,
+    "fields": {
+        "name": "Sphynx"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 90,
+    "fields": {
+        "name": "Suphalak"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 91,
+    "fields": {
+        "name": "Thai"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 92,
+    "fields": {
+        "name": "Thai Lilac"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 93,
+    "fields": {
+        "name": "Tonkinese"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 94,
+    "fields": {
+        "name": "Toyger"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 95,
+    "fields": {
+        "name": "Turkish Angora"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 96,
+    "fields": {
+        "name": "Turkish Van"
+    }
+},
+{
+    "model": "app.catbreed",
+    "pk": 97,
+    "fields": {
+        "name": "Ukrainian Levkoy"
+    }
+}
+]

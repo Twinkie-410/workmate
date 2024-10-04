@@ -1,3 +1,6 @@
+from django.urls import path
+from rest_framework_simplejwt.views import TokenRefreshView
+
 from app.internal.views.auth_view import (
     ChangeEmailAPIView,
     ChangePasswordAPIView,
@@ -8,8 +11,6 @@ from app.internal.views.auth_view import (
     SetNewPasswordAPIView,
     UserRegisterAPIView,
 )
-from django.urls import path
-from rest_framework_simplejwt.views import TokenRefreshView
 
 urlpatterns = [
     path("register/", UserRegisterAPIView.as_view(), name="register"),

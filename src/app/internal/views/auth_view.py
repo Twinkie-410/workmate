@@ -1,4 +1,14 @@
 import jwt
+from django.contrib.auth import get_user_model
+from drf_yasg import openapi
+from drf_yasg.utils import swagger_auto_schema
+from jwt import DecodeError, ExpiredSignatureError
+from rest_framework import status
+from rest_framework.generics import CreateAPIView, GenericAPIView
+from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.response import Response
+from rest_framework.views import APIView
+
 from app.internal.serializers.auth_serializer import (
     ChangeEmailSerializer,
     ChangePasswordSerializer,
@@ -12,15 +22,6 @@ from app.internal.utils.mailings.notify_change_password_email import notify_chan
 from app.internal.utils.mailings.reset_password_email import send_reset_password_email
 from app.internal.utils.mailings.send_confirm_email import send_confirm_email
 from config import settings
-from django.contrib.auth import get_user_model
-from drf_yasg import openapi
-from drf_yasg.utils import swagger_auto_schema
-from jwt import DecodeError, ExpiredSignatureError
-from rest_framework import status
-from rest_framework.generics import CreateAPIView, GenericAPIView
-from rest_framework.permissions import AllowAny, IsAuthenticated
-from rest_framework.response import Response
-from rest_framework.views import APIView
 
 
 class UserRegisterAPIView(CreateAPIView):

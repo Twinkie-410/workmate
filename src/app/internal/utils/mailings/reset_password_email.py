@@ -1,10 +1,11 @@
-from app.internal.utils.mailings.send_email import send_email
-from config import settings
 from django.contrib.auth import get_user_model
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from django.contrib.sites.shortcuts import get_current_site
 from django.utils.encoding import smart_bytes
 from django.utils.http import urlsafe_base64_encode
+
+from app.internal.utils.mailings.send_email import send_email
+from config import settings
 
 
 def send_reset_password_email(user_data, request):

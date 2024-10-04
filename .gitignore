@@ -10,4 +10,4 @@ __pycache__
 *.sqlite3
 db.*
 migrations/
-/backend/.env
+/src/.env

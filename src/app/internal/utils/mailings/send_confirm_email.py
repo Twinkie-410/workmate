@@ -1,8 +1,9 @@
-from app.internal.utils.mailings.send_email import send_email
 from django.contrib.auth import get_user_model
 from django.contrib.sites.shortcuts import get_current_site
 from django.urls import reverse_lazy
 from rest_framework_simplejwt.tokens import RefreshToken
+
+from app.internal.utils.mailings.send_email import send_email
 
 
 def send_confirm_email(user_data, request, to=None):
