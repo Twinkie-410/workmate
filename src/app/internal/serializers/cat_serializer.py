@@ -10,12 +10,13 @@ class CatBreedSerializer(serializers.ModelSerializer):
 
 
 class CatSerializer(serializers.ModelSerializer):
-    type = CatBreedSerializer(read_only=True)
+    breed_info = CatBreedSerializer(read_only=True, source='breed')
 
     class Meta:
         model = Cat
         fields = "__all__"
-        read_only_fields = ["owner"]
+        read_only_fields = ["owner", "breed_info"]
+        extra_kwargs = {"name": {"required": True}, "breed": {"required": True}}
 
     def create(self, validated_data):
         validated_data['owner'] = self.context["request"].user

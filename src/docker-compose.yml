@@ -1,0 +1,39 @@
+services:
+  postgresql:
+    image: postgres:16.2
+    container_name: ${POSTGRES_HOST}
+    volumes:
+      - /postgres/db/workmate:/var/lib/postgresql/data
+#      - ./src/db/:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_PORT: ${POSTGRES_PORT}
+      POSTGRES_INITDB_ARGS: -A md5
+
+
+  django:
+    build: .
+#    image: workmate:latest
+    container_name: django
+    depends_on:
+      - postgresql
+    restart: always
+    ports:
+      - 8000:8000
+    command: >
+      sh -c "sleep 10 && \
+      python manage.py collectstatic --noinput && \
+      python manage.py makemigrations app && \
+      python manage.py migrate && \
+      python -Xutf8 manage.py loaddata --format=json app/fixtures/cat_breed.json && \
+      python manage.py runserver 0.0.0.0:8000"
+
+    volumes:
+      - static_volume:/usr/src/static
+      - media_volume:/usr/src/media
+
+volumes:
+  static_volume:
+  media_volume:

@@ -7,7 +7,7 @@ ENV PYTHONPATH="/app/backend"
 
 RUN apt update
 
-WORKDIR usr/src/app
+WORKDIR usr/src
 
 RUN mkdir -p $WORKDIR/static
 RUN mkdir -p $WORKDIR/media

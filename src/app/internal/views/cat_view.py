@@ -1,4 +1,4 @@
-from rest_framework import generics
+from rest_framework import generics, filters
 from rest_framework.permissions import AllowAny, IsAuthenticatedOrReadOnly, IsAuthenticated, SAFE_METHODS
 
 from app.internal.models.cat_model import Cat, CatBreed
@@ -14,13 +14,15 @@ class CatBreedListAPIView(generics.ListAPIView):
 class CatListAPIView(generics.ListAPIView):
     permission_classes = [AllowAny]
     serializer_class = CatSerializer
+    queryset = Cat.objects.all()
 
-    def get_queryset(self):
-        queryset = Cat.objects.all()
-        breed = self.request.query_params.get("breed")
-        if breed is not None:
-            queryset = Cat.objects.filter(breed=breed)
-        return queryset
+
+class CatListByBreedAPIView(generics.ListAPIView):
+    permission_classes = [AllowAny]
+    serializer_class = CatSerializer
+    queryset = Cat.objects.all()
+    filter_backends = [filters.SearchFilter]
+    search_fields = ["breed__name"]
 
 
 class CatDetailAPIView(generics.RetrieveUpdateDestroyAPIView):
